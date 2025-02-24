@@ -1,0 +1,47 @@
+// Переменные
+$primary-color: #007bff;
+$hover-color: #0056b3;
+$text-color: #333;
+$background-color: #f8f9fa;
+
+// Основные стили
+body {
+  background-color: $background-color;
+  color: $text-color;
+}
+
+.main-title {
+  color: $primary-color;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.text-block {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  
+  h2 {
+    color: $primary-color;
+    margin-bottom: 1rem;
+  }
+}
+
+.custom-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: $primary-color;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: $hover-color;
+    color: white;
+    text-decoration: none;
+  }
+}
